@@ -1,0 +1,2 @@
+CREATE MEMORY TABLE member(userid varchar(50) PRIMARY KEY,userpw varchar(50) not null,username varchar(50) not null,email varchar(100),regdate timestamp DEFAULT CURRENT_TIMESTAMP,updatedate timestamp DEFAULT CURRENT_TIMESTAMP)
+INSERT INTO member(userid,userpw,username,email,regdate,updatedate) VALUES ('user2','1234','kimilguk','user02@test.com',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)
